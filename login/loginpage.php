@@ -28,10 +28,10 @@
     <form action="login.php" method="post">
         <h3>Login Here</h3>
         <label>Username</label>
-        <input type="text" placeholder="Account number" name="username" required>
+        <input type="text" placeholder="Account number" name="accnum" required>
         <label>Password</label>
         <input type="password" placeholder="Password" name="password" required>
-        <button type="submit">Log In</button>
+        <button type="submit" name="submit" id="submit">Log In</button>
     </form>
 </body>
 
